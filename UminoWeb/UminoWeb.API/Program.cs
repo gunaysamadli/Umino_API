@@ -1,3 +1,12 @@
+using FluentValidation.AspNetCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
+using System.Reflection;
+using UminoWeb.BLL;
+using UminoWeb.BLL.Mapping;
+using UminoWeb.DAL;
+using UminoWeb.DAL.DataContext;
+
 namespace UminoWeb.API
 {
     public class Program
@@ -13,7 +22,38 @@ namespace UminoWeb.API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddDbContext<AppDbContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            });
+
+
+            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  policy =>
+                                  {
+                                      policy.AllowAnyOrigin().AllowAnyMethod();
+                                  });
+            });
+
+            builder.Services.AddFluentValidation(x => x.RegisterValidatorsFromAssembly(assembly: Assembly.GetExecutingAssembly()));
+
+
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
+            builder.Services.AddDalServices();
+            builder.Services.AddBllServices();
+
             var app = builder.Build();
+
+            app.UseFileServer(new FileServerOptions
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "images")),
+                RequestPath = new PathString("/images"),
+                EnableDirectoryBrowsing = true
+            });
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -49,7 +50,7 @@ namespace UminoWeb.DAL.Repositories
 
         public async virtual Task DeleteAsync(T entity)
         {
-            //override edilib --> StudentManager
+            //override
         }
 
         public async virtual Task<IList<T>> GetAllAsync()
@@ -75,3 +76,4 @@ namespace UminoWeb.DAL.Repositories
             await _context.SaveChangesAsync();
         }
     }
+}

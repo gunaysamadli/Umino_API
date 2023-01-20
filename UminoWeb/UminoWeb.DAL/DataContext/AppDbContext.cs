@@ -1,9 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using UminoWeb.DAL.Entities;
 
 namespace UminoWeb.DAL.DataContext
 {
@@ -14,5 +10,6 @@ namespace UminoWeb.DAL.DataContext
 
         }
 
+        public DbSet<Slider> Sliders { get; set; }
     }
 }

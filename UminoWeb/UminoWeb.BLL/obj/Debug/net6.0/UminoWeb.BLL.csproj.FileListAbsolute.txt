@@ -1,0 +1,15 @@
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\bin\Debug\net6.0\UminoWeb.BLL.deps.json
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\bin\Debug\net6.0\UminoWeb.BLL.dll
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\bin\Debug\net6.0\UminoWeb.BLL.pdb
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\bin\Debug\net6.0\UminoWeb.DAL.dll
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\bin\Debug\net6.0\UminoWeb.DAL.pdb
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\obj\Debug\net6.0\UminoWeb.BLL.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\obj\Debug\net6.0\UminoWeb.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\obj\Debug\net6.0\UminoWeb.BLL.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\obj\Debug\net6.0\UminoWeb.BLL.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\obj\Debug\net6.0\UminoWeb.BLL.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\obj\Debug\net6.0\UminoWeb.BLL.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\obj\Debug\net6.0\UminoWeb.BLL.dll
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\obj\Debug\net6.0\refint\UminoWeb.BLL.dll
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\obj\Debug\net6.0\UminoWeb.BLL.pdb
+C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.BLL\obj\Debug\net6.0\ref\UminoWeb.BLL.dll

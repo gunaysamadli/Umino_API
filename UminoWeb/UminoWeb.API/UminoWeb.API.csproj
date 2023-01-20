@@ -17,7 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UminoWeb.BLL\UminoWeb.BLL.csproj" />
+    <ProjectReference Include="..\UminoWeb.DAL\UminoWeb.DAL.csproj" />
   </ItemGroup>
 
 </Project>

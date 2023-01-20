@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vA7zCwfFK7Ddxd5PR2rp3XeHVpED/qKrfSHI3osP16k=",
+  "Source": "UminoWeb.API",
+  "BasePath": "_content/UminoWeb.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

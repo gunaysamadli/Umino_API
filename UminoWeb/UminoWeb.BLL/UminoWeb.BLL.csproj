@@ -12,4 +12,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UminoWeb.DAL\UminoWeb.DAL.csproj" />
+  </ItemGroup>
+
 </Project>
