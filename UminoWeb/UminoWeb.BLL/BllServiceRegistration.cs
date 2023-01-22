@@ -5,6 +5,7 @@ using UminoWeb.BLL.Services;
 using UminoWeb.BLL.Services.contracts;
 using UminoWeb.BLL.Validators.BrandValidator;
 using UminoWeb.BLL.Validators.CategoryValidator;
+using UminoWeb.BLL.Validators.ColorValidator;
 using UminoWeb.BLL.Validators.SliderValidator;
 
 namespace UminoWeb.BLL
@@ -23,6 +24,9 @@ namespace UminoWeb.BLL
 
             services.AddScoped<IBrandService, BrandManager>();
             services.AddScoped<IValidator<BrandCreateDto>, BrandCreateDtoValidation>();
+
+            services.AddScoped<IColorService, ColorManager>();
+            services.AddScoped<IValidator<ColorCreateDto>, ColorCreateDtoValidation>();
 
             return services;
         }

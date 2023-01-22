@@ -25,6 +25,10 @@ namespace UminoWeb.BLL.Mapping
             CreateMap<Brand, BrandCreateDto>().ReverseMap();
             CreateMap<Brand, BrandUpdateDto>().ReverseMap();
 
+            CreateMap<Color, ColorDto>().ReverseMap();
+            CreateMap<Color, ColorCreateDto>().ReverseMap();
+            CreateMap<Color, ColorUpdateDto>().ReverseMap();
+
         }
     }
 }
