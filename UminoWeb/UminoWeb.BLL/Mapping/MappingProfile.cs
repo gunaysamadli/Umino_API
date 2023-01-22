@@ -17,6 +17,10 @@ namespace UminoWeb.BLL.Mapping
             CreateMap<Slider, SliderCreateDto>().ReverseMap();
             CreateMap<Slider, SliderUpdateDto>().ReverseMap();
 
+            CreateMap<Category, CategoryDto>().ReverseMap();
+            CreateMap<Category, CategoryCreateDto>().ReverseMap();
+            CreateMap<Category, CategoryUpdateDto>().ReverseMap();
+
         }
     }
 }
