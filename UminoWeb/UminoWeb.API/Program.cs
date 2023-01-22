@@ -28,14 +28,14 @@ namespace UminoWeb.API
             });
 
 
-            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+            var MyAllowSpecificOrigins = "Access-Control-Allow-Origin";
 
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy(name: MyAllowSpecificOrigins,
                                   policy =>
                                   {
-                                      policy.AllowAnyOrigin().AllowAnyMethod();
+                                      policy.WithOrigins("http://localhost:3000", "http://localhost:3001").AllowAnyHeader().AllowAnyMethod().AllowCredentials(); ;
                                   });
             });
 
@@ -65,6 +65,8 @@ namespace UminoWeb.API
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
+
+            app.UseCors("Access-Control-Allow-Origin");
 
 
             app.MapControllers();

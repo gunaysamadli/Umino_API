@@ -12,5 +12,7 @@ namespace UminoWeb.DAL.DataContext
 
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Brand>  Brands { get; set; }
+
     }
 }

@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using UminoWeb.BLL.Dto;
 using UminoWeb.BLL.Services;
 using UminoWeb.BLL.Services.contracts;
+using UminoWeb.BLL.Validators.BrandValidator;
 using UminoWeb.BLL.Validators.CategoryValidator;
 using UminoWeb.BLL.Validators.SliderValidator;
 
@@ -19,6 +20,9 @@ namespace UminoWeb.BLL
 
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<IValidator<CategoryCreateDto>, CategoryCreateDtoValidation>();
+
+            services.AddScoped<IBrandService, BrandManager>();
+            services.AddScoped<IValidator<BrandCreateDto>, BrandCreateDtoValidation>();
 
             return services;
         }
