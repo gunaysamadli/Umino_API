@@ -35,6 +35,10 @@ namespace UminoWeb.BLL.Services
 
             if (deletedEntity is null) throw new Exception();
 
+            var product = await _dbContext.Products.Where(x => x.BrandId == id)
+                                                             .FirstOrDefaultAsync();
+
+            if (product is not null) throw new Exception();
 
             var path = Path.Combine(_webHostEnvironment.ContentRootPath, "Images", "Brand", deletedEntity.ImageName);
 
@@ -74,7 +78,14 @@ namespace UminoWeb.BLL.Services
             {
                 brandUpdateDto.IsDeleted = existBrand.IsDeleted;
             }
-            if (brandUpdateDto.IsDeleted == true) throw new Exception();
+            else
+            {
+                var product = await _dbContext.Products
+                    .Where(x => x.BrandId == id && x.IsDeleted == false)
+                    .FirstOrDefaultAsync();
+
+                if (brandUpdateDto.IsDeleted == true && product != null) throw new Exception();
+            }
 
             var brand = _mapper.Map<Brand>(brandUpdateDto);
 

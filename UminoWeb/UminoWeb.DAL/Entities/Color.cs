@@ -13,5 +13,6 @@ namespace UminoWeb.DAL.Entities
         public string ColorName { get; set; }
         public string ColorCode { get; set; }
         public bool IsDeleted { get; set; }
+        public virtual List<ProductColor> ProductColors { get; set; }
     }
 }

@@ -13,5 +13,6 @@ namespace UminoWeb.DAL.Entities
         public string Name { get; set; }
         public string ImageName { get; set; }
         public bool IsDeleted { get; set; }
+        public virtual List<Product> Products { get; set; }
     }
 }

@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UminoWeb.BLL.Dto
+{
+    public class GeneralProductColorDto
+    {
+        public int Id { get; set; }
+        public string? SKU { get; set; }
+        public int? Quantity { get; set; }
+        public int? ColorId { get; set; }
+        public string? ColorName { get; set; }
+        public string? ColorCode { get; set; }
+        public bool? IsDeleted { get; set; }
+        public List<GeneralProductImageDto>? GeneralProductImages { get; set; } = new List<GeneralProductImageDto>();
+
+    }
+}

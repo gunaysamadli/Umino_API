@@ -20,7 +20,6 @@ namespace UminoWeb.BLL.Services
         private readonly AppDbContext _dbContext;
         private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IMapper _mapper;
-
         public SliderManager(AppDbContext dbContext, IWebHostEnvironment webHostEnvironment, IMapper mapper) : base(dbContext)
         {
             _dbContext = dbContext;

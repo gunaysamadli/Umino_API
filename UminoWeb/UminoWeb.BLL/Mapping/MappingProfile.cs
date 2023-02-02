@@ -29,6 +29,21 @@ namespace UminoWeb.BLL.Mapping
             CreateMap<Color, ColorCreateDto>().ReverseMap();
             CreateMap<Color, ColorUpdateDto>().ReverseMap();
 
+            CreateMap<Product, ProductDto>().ReverseMap();
+            CreateMap<Product, ProductCreateDto>().ReverseMap();
+            CreateMap<Product, ProductUpdateDto>().ReverseMap();
+
+            CreateMap<ProductColor, ProductColorDto>().ReverseMap();
+            CreateMap<ProductColor, ProductColorCreateDto>().ReverseMap();
+            CreateMap<ProductColor, ProductColorUpdateDto>().ReverseMap();
+            CreateMap<ProductColor, GeneralProductColorDto>().ReverseMap();
+
+            CreateMap<Product, GeneralProductDto>().ReverseMap();
+
+            CreateMap<ProductImage, ProductImageDto>().ReverseMap();
+            CreateMap<ProductImage, GeneralProductImageDto>().ReverseMap();
+            CreateMap<ProductImage, ProductImageCreateDto>().ReverseMap();
+
         }
     }
 }

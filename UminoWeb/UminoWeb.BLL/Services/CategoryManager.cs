@@ -35,6 +35,8 @@ namespace UminoWeb.BLL.Services
 
             if (deletedEntity is null) throw new Exception();
 
+
+
             var path = Path.Combine(_webHostEnvironment.ContentRootPath, "Images", "Category", deletedEntity.ImageName);
 
             if (File.Exists(path))
@@ -73,8 +75,14 @@ namespace UminoWeb.BLL.Services
             {
                 categoryUpdateDto.IsDeleted = existCategory.IsDeleted;
             }
+            else
+            {
+                var product = await _dbContext.Products
+                    .Where(x => x.CategoryId == id && x.IsDeleted == false)
+                    .FirstOrDefaultAsync();
 
-            if (categoryUpdateDto.IsDeleted == true) throw new Exception();
+                if (categoryUpdateDto.IsDeleted == true && product != null) throw new Exception();
+            }
 
             var category = _mapper.Map<Category>(categoryUpdateDto);
 

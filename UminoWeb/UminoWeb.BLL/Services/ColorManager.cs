@@ -42,6 +42,11 @@ namespace UminoWeb.BLL.Services
 
             if (deletedEntity is null) throw new Exception();
 
+            var productColor = await _dbContext.ProductColors
+                               .Where(x => x.ColorId == deletedEntity.Id).
+                               FirstOrDefaultAsync();
+
+            if (productColor is not null) throw new Exception();
 
             _dbContext.Remove(deletedEntity);
             await _dbContext.SaveChangesAsync();
@@ -79,7 +84,14 @@ namespace UminoWeb.BLL.Services
             {
                 colorUpdateDto.IsDeleted = existColor.IsDeleted;
             }
-            if (colorUpdateDto.IsDeleted == true) throw new Exception();
+            else
+            {
+                var productColor = await _dbContext.ProductColors
+                    .Where(x => x.ColorId == id && x.IsDeleted == false)
+                    .FirstOrDefaultAsync();
+
+                if (colorUpdateDto.IsDeleted == true && productColor != null) throw new Exception();
+            }
 
             var color = _mapper.Map<Color>(colorUpdateDto);
 
