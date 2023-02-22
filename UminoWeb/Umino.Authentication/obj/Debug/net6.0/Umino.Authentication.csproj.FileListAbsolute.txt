@@ -1,0 +1,17 @@
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\bin\Debug\net6.0\Umino.Authentication.deps.json
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\bin\Debug\net6.0\Umino.Authentication.runtimeconfig.json
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\bin\Debug\net6.0\Umino.Authentication.dll
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\bin\Debug\net6.0\Umino.Authentication.pdb
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\obj\Debug\net6.0\Umino.Authentication.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\obj\Debug\net6.0\Umino.Authentication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\obj\Debug\net6.0\Umino.Authentication.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\obj\Debug\net6.0\Umino.Authentication.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\obj\Debug\net6.0\Umino.Authentication.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\obj\Debug\net6.0\Umino.Authentication.dll
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\obj\Debug\net6.0\refint\Umino.Authentication.dll
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\obj\Debug\net6.0\Umino.Authentication.pdb
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\obj\Debug\net6.0\Umino.Authentication.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\obj\Debug\net6.0\ref\Umino.Authentication.dll
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\bin\Debug\net6.0\UminoWeb.DAL.dll
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\bin\Debug\net6.0\UminoWeb.DAL.pdb
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\Umino.Authentication\obj\Debug\net6.0\Umino.Authentication.csproj.CopyComplete

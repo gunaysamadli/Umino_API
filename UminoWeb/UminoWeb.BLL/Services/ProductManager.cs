@@ -1,11 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UminoWeb.BLL.Dto;
 using UminoWeb.BLL.Services.contracts;
 using UminoWeb.DAL.DataContext;
@@ -60,11 +55,6 @@ namespace UminoWeb.BLL.Services
                                FirstOrDefaultAsync();
 
             if (productColor is not null) throw new Exception();
-
-            //var path = Path.Combine(_webHostEnvironment.ContentRootPath, "Images", "SubCategory", deletedEntity.ImageName);
-
-            //if (File.Exists(path))
-            //    File.Delete(path);
 
             _dbContext.Remove(deletedEntity);
             await _dbContext.SaveChangesAsync();

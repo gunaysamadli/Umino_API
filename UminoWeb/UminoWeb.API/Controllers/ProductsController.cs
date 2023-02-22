@@ -67,6 +67,16 @@ namespace UminoWeb.API.Controllers
             generalProductsDtos.ForEach(x => x.GeneralProductColors
                                .ForEach(y => y.GeneralProductImages.ForEach(z => z.ImageName = imagePath + z.ImageName)));
 
+            List<string> images;
+
+            generalProductsDtos.ForEach(x => {
+                images = new List<string>();
+                x.GeneralProductColors
+                .ForEach(y => y.GeneralProductImages
+                .ForEach(z => images.Add(z.ImageName)));
+                x.ImageName = images.FirstOrDefault();
+            });
+
             var colors = await _ColorRepository.GetAllAsync();
 
             generalProductsDtos.ForEach(x => x.GeneralProductColors.ForEach(y => y.ColorName = colors.Where(x => x.Id == y.ColorId).FirstOrDefault().ColorName));

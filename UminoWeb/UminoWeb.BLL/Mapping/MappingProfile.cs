@@ -44,6 +44,8 @@ namespace UminoWeb.BLL.Mapping
             CreateMap<ProductImage, GeneralProductImageDto>().ReverseMap();
             CreateMap<ProductImage, ProductImageCreateDto>().ReverseMap();
 
+            CreateMap<ApplicationUser, UserDto>().ReverseMap();
+
         }
     }
 }

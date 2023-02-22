@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Umino.Authentication\Umino.Authentication.csproj" />
     <ProjectReference Include="..\UminoWeb.BLL\UminoWeb.BLL.csproj" />
     <ProjectReference Include="..\UminoWeb.DAL\UminoWeb.DAL.csproj" />
   </ItemGroup>

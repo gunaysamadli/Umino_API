@@ -10,3 +10,15 @@ C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\UminoWe
 C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\refint\UminoWeb.DAL.dll
 C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\UminoWeb.DAL.pdb
 C:\Users\LENOVO\Desktop\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\ref\UminoWeb.DAL.dll
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\bin\Debug\net6.0\UminoWeb.DAL.deps.json
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\bin\Debug\net6.0\UminoWeb.DAL.dll
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\bin\Debug\net6.0\UminoWeb.DAL.pdb
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\UminoWeb.DAL.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\UminoWeb.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\UminoWeb.DAL.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\UminoWeb.DAL.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\UminoWeb.DAL.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\UminoWeb.DAL.dll
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\refint\UminoWeb.DAL.dll
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\UminoWeb.DAL.pdb
+C:\Users\LENOVO\Desktop\My\Umino_API\UminoWeb\UminoWeb.DAL\obj\Debug\net6.0\ref\UminoWeb.DAL.dll
